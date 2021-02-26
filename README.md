@@ -1,0 +1,1 @@
+an example of using choicetype for symfony forms by offering the possibility to pre-fill the list with json data and therefore an api

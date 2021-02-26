@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title 'New Post' %}
+
+{% block body %}
+    <h1>Add a new post</h1>
+    {% include 'post/_form.html.twig' with {form: form} only %}
+{% endblock %}
+
+{% block javascripts %}
+ {{ parent() }}
+    <script src="{{ asset('js/app.js') }}"></script>
+{% endblock %}
